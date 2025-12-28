@@ -1,0 +1,34 @@
+services:
+  playground-web-frontend:
+    # image: playground-web-frontend:latest
+    build:
+      context: .
+      dockerfile: frontend.dockerfile
+    ports:
+      - "8081:8081"
+    develop:
+      watch:
+        - action: sync
+          path: ./moviedb-frontend
+          target: /var/app/moviedb-frontend
+          ignore:
+            - node_modules/
+        - action: rebuild
+          path: moviedb-frontend/package.json
+  playground-web-backend:
+    # image: playground-web-backend:latest
+    build:
+      context: .
+      dockerfile: backend.dockerfile
+    ports:
+      - "5001:5000"
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /var/app
+          ignore:
+            - __pycache__/
+            - node_modules/
+        - action: rebuild
+          path: moviedb-backend/requirements.txt

@@ -1,0 +1,17 @@
+Languages: (M, S, N)
+- Java (Novice, Novice, Novice)
+- Python (Novice, Novice, Novice)
+- C/C++ (Novice, Novice, Novice)
+- HTML/CSS (Novice, Novice, Novice)
+
+
+Discuss the team’s experience with different frameworks, tools, and technologies.
+List any and all languages, libraries, and frameworks that anyone in the group has experience with.
+
+For each technology, framework, etc., add a ‘level’ for each person:
+
+None - Never heard of it
+Novice - Has minimal or textbook knowledge only
+Competent - Has good working and background knowledge
+Proficient - Commonly uses advanced features
+
