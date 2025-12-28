@@ -1,7 +1,5 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vfKrPwQS)
-# << Project Title >>
-## CS 445 Final Project
-### Spring 2025
+# << MovieDB >>
 
 ### Team: Team 8
 Macy Jiang, Sarah Leong, Nikki Tan
@@ -45,8 +43,3 @@ When the app is running, you'll see the homescreen displaying a “Continue Watc
 
 ## License
 MIT License
-
-## Acknowledgments
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
